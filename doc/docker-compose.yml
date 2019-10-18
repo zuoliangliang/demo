@@ -1,0 +1,6 @@
+version: '3'
+services:
+  demo:
+    image: 10.172.49.246/jiangsu_clmp_test/demo:0.0.1
+    ports:
+      - 8888:8080
